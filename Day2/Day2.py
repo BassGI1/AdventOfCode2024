@@ -25,9 +25,6 @@ lines = open("./input.txt", "r+").read().split("\n")
 # 	report = [int(num) for num in line.split(" ")]
 # 	safe = True
 
-# 	print(f"""
-# New Report: {report}, current safe count: {num_safe}""")
-
 # 	for i in range(len(report)):
 # 		modified_report = report.copy()
 # 		modified_report.pop(i)
